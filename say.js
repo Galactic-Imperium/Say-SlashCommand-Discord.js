@@ -8,7 +8,7 @@ async execute (client, message, args) {
 
 if(message.author.id !== "bot-owner-id") return message.reply({
   embeds: [new Discord.MessageEmbed()
-      .setDescription("**<:x_:1030676024662442065> |  No tienes suficientes permisos para ejecutar este Comando! | <:x_:1030676024662442065>**")
+      .setDescription("**<:x:> |  No tienes suficientes permisos para ejecutar este Comando! | <:x:>**")
       .setColor("ff0000")
   ]
 })
@@ -16,7 +16,7 @@ if(message.author.id !== "bot-owner-id") return message.reply({
 const escribe = args.slice(0).join(' ')
 if(!escribe) return message.reply({
   embeds: [new Discord.MessageEmbed()
-      .setDescription("**<:x_:1030676024662442065> |  No especificaste un mensaje a decir! | <:x_:1030676024662442065>**")
+      .setDescription("**<:x:> |  No especificaste un mensaje a decir! | <:x:>**")
       .setColor("ff0000")
   ]
 })
