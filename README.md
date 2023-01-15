@@ -1,2 +1,2 @@
-# Say-Slash-Command-Discord.js
-Slash Command /Say, creado por akacannon.
+# Say-SlashCommand-Discord.js
+Slash Command del Comando Say creado por Akacannon.
